@@ -1,3 +1,4 @@
 #!/bin/bash
-cd /home/ubuntu/aws-devops-pgp/
-sudo nohup python3 app.py </dev/null >nohup.out 2>nohup.err &
+#cd /home/ubuntu/aws-devops-pgp/
+#sudo nohup python3 app.py </dev/null >nohup.out 2>nohup.err &
+echo "hello world"
