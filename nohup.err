@@ -1,0 +1,12 @@
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.31.56.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 366-925-192
+103.99.204.120 - - [02/Jun/2021 07:23:05] "GET / HTTP/1.1" 200 -
+103.99.204.120 - - [02/Jun/2021 07:23:06] "GET /favicon.ico HTTP/1.1" 404 -
+103.99.204.120 - - [02/Jun/2021 07:23:41] "GET / HTTP/1.1" 200 -
+103.99.204.120 - - [02/Jun/2021 07:24:04] "GET / HTTP/1.1" 200 -
+103.99.204.120 - - [02/Jun/2021 07:25:38] "GET / HTTP/1.1" 200 -
+103.99.204.120 - - [02/Jun/2021 07:25:40] "GET / HTTP/1.1" 200 -

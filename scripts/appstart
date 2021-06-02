@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /home/ubuntu/aws-devops-pgp
+nohup python3 app.py </dev/null >nohup.out 2>nohup.err &
