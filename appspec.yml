@@ -2,7 +2,7 @@ version: 0.0
 os: linux	
 files:	
   - source: templates/index.html	  
-    destination: /home/ubuntu/aws-devops-pgp	    
+    destination: /home/ubuntu/aws-devops-pgp/templates	    
 hooks:	
   ApplicationStart:	 
     - location: /templates/hooks.sh   
