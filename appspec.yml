@@ -3,11 +3,11 @@ os: linux
 files:	
   - source: templates/index.html	  
     destination: /home/ubuntu/aws-devops-pgp/templates	    
-hooks:	
-  BeforeInstall:	 
-    - location: /opt/codedeploy-agent/deployment-root/e65a0f00-c593-44b0-a512-f4e76e2706f7/d-F1RMF939B/deployment-archive/scripts 
-      timeout: 300
-      runas: root      
+#hooks:	
+  #BeforeInstall:	 
+   # - location: /opt/codedeploy-agent/deployment-root/e65a0f00-c593-44b0-a512-f4e76e2706f7/d-F1RMF939B/deployment-archive/scripts 
+    #  timeout: 300
+     # runas: root      
     # runas: root	     
     # - location: /scripts/start_server	    
     # timeout: 300	     
