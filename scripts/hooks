@@ -1,4 +1,0 @@
-#!/bin/bash
-#cd /home/ubuntu/aws-devops-pgp/
-#sudo nohup python3 app.py </dev/null >nohup.out 2>nohup.err &
-sudo apt get install apache2 -y
