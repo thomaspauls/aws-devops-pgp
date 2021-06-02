@@ -4,7 +4,7 @@ files:
   - source: templates/index.html	  
     destination: /home/ubuntu/aws-devops-pgp/templates	    
 hooks:	
-  AfterInstall:	 
+  BeforeInstall:	 
     - location: /scripts/hooks  
       timeout: 300
       runas: root      
