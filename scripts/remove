@@ -1,3 +1,2 @@
 #!/bin/bash
 rm -rf /home/ubuntu/aws-devops-pgp/templates/index.html
-kill $(ps -ef | grep python3)
