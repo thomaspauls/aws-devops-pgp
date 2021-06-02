@@ -4,8 +4,8 @@ files:
   - source: templates/index.html	  
     destination: /home/ubuntu/aws-devops-pgp/templates	    
 hooks:	
-  ApplicationStart:	 
-    - location: /templates/hooks.sh   
+  AfterInstall:	 
+    - location: /templates/hooks  
       timeout: 300
       runas: root      
     # runas: root	     
